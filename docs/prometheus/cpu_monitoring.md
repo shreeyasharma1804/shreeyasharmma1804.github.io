@@ -15,6 +15,9 @@
 </ol>
 <pre><code>node_cpu_seconds_total{mode="idle"}
 # Returns a counter
+
+![alt text](<Screenshot from 2025-11-17 13-14-50.png>)
+
 </code></pre>
 <pre><code>node_cpu_seconds_total{mode="idle", cpu="0"}[5m]
 # Returns 
